@@ -48,14 +48,14 @@ function resta(x, y) {
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  multiplica = x/y;
+  multiplica = x * y;
   return multiplica
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  divide = x/y;
+  divide = x / y;
   return divide
 }
 
@@ -63,10 +63,9 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x==y);
+  if (x=y);
   return true; 
-}
-return false;
+}  
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
